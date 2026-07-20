@@ -1,0 +1,37 @@
+{
+  "name": "planazo",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Invita a alguien a un plan de forma bonita y divertida. 100% frontend, sin backend: todo va codificado en el enlace.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test:e2e": "node e2e-check.cjs"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "date-fns": "^4.4.0",
+    "framer-motion": "^12.42.2",
+    "lz-string": "^1.5.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "playwright": "^1.56.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  }
+}
+
